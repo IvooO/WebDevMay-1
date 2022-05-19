@@ -1,0 +1,35 @@
+ li {
+
+    list-style-type: none;
+    display: inline; 
+
+}
+
+ul {
+    text-align: center;
+}
+
+a {
+
+    text-decoration: none !important;
+    color: red;
+    font-family: monospace;
+    font-size: x-large;
+   
+}
+
+.active {
+    color: greenyellow;
+}
+
+#navbar {
+background-color: cadetblue;
+height: 150px;
+  width: 100%
+
+
+}
+
+i {
+    color:bisque !important;
+}
