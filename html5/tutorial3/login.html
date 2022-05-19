@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <main id="login-container">
+
+    <h1>Login page </h1>
+    <form method="post" action="/save">   
+    <fieldset>
+        <legend>Form input data</legend>
+        <label for="username">Username</label>
+        <br/>
+      
+        <input type="text" name="username" placeholder="Username" value="enter your username" value="admin" required/>    
+        <br/>
+        <label for="email">email</label>
+        <br>
+        <input type="email" name="email" placeholder="Username" value="enter your email" value="admin" required/>    
+        <br>
+       
+        <input type="hidden" value="token12345dfgetyh45hh" readonly required />
+        <br>
+        <label for="date">Date</label>
+        <br>
+        <input type="date">
+        <br>
+        <label for="password">Password</label>
+        <br>
+        <input type="Password" name="password" placeholder="enter your Password"/>    
+        <br>
+        
+        <!-- <input type="button" value="send"> -->
+        <button>send</button>
+    </fieldset> 
+    </form>     
+
+
+    </main>
+</body>
+</html>

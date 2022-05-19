@@ -1,4 +1,56 @@
-body {
-    background-color: lightgrey;
-    color: blue;
+nav {
+    background-color: rgb(228, 226, 226);
+    padding: 1px;
+    
+}
+
+li {
+    display: inline;
+
+
+
+}
+
+ul{
+    text-align: center;
+
+
+}
+
+a {
+    text-align: center;
+
+
+}
+
+#home {
+    text-align: center;
+    background-color: rgba(246, 223, 223, 0.282);
+    padding: 10px;
+    
+}
+
+article > img {
+
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 5px;
+
+}
+
+#blog {
+    display: flex;
+    width: auto;
+}
+
+footer {
+    background-color: rgba(249, 157, 92, 0.484);
+    text-align: center;
+    padding: 10px;
+}
+
+main#login-container {
+background-color: rgb(143, 211, 246);
+padding: 3px;
 }
