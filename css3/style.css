@@ -1,0 +1,35 @@
+/* SelectByID
+SelectByClass
+SelectByTagName
+SelectByAttributeName */
+
+#main {
+    border: 2px solid red; 
+    height: 100vh;
+
+}
+
+.container {
+    border: 10px solid purple !important;
+}
+
+option [value="GTX1080"] {
+    background-color: black !important;
+    color: white;
+
+
+}
+
+label [name="computer1"] {
+
+    color: red;
+
+}
+
+body {
+
+    background-color: url(https://www.referenseo.com/wp-content/uploads/2019/03/image-attractive-960x540.jpg);
+    background-repeat: no-repeat ;
+    background-size: 100%;
+}
+
