@@ -1,25 +1,35 @@
 body {
-
-margin: 0;
+    margin: 0;
 
 }
-
 
 .container{
 
-    background-color: black;
+    background-color: rgb(170, 169, 169);
     width: 200px;
     height: 200px;
-    /* padding: 3px;
+     padding: 3px;
     padding-top: 5px;
-    padding-left: 20px; */
+    padding-left: 20px; 
     padding: 3% 2em 0;
     outline: 10px saddlebrown solid;
-    border: 10px solid rgb(115, 30, 30);
+    border: 10px solid rgb(115, 30, 30); 
 }
 
-.container > p {
+.projectslicer {
 
+    background-color:rgb(185, 183, 183) ;  
+    width: 480px;
+    height: 200px;
+    float:right; 
+    margin-top: -200px;
+    margin-right: 80px;
+    text-align: center;  
+   }
+
+
+
+.container > p {
     color: white;
     width: 200px;
     font-size: 20pt;
@@ -31,19 +41,13 @@ margin: 0;
 }
 
 .content {
-
     width: auto;
     background-color: rgba(0, 140, 255, 0.872);
     padding: 1em;
     color: azure;
-    text-align: center;
-
-
-
 }
 
 .content > a {
-
    color: white;
    font-size: 25px;
 
@@ -59,18 +63,32 @@ margin: 0;
     color: green;
     text-decoration: none ;
  } */
+
+ p1 {
+    font-weight:2000;
+}
  
+ p2 {
+     font-size: medium;
+     font-style: normal;
+ }
+
+
  .menu {
      border-bottom: 1px;
      height: max-content;
-  
+     float:right; 
+     margin-top: -250px;
+     margin-right: 205px;
 
  }
 
  .menu > li {
   list-style-type: none;
+  display: inline-block;
+  margin-right: 0;
   font-family: "Audiowide", sans-serif;
-  display: inline;
+  border : 1px solid yellow;
   padding: 10px;
   
  }
@@ -78,12 +96,12 @@ margin: 0;
  .menu > li:hover {
     color:rgb(143, 38, 38);
     background-color: aliceblue;
-   }
+}
 
-   .logo {
+.logo {
     font-size: 50px;
     font-family: "Audiowide", sans-serif;
-   }
+}
 
 
 .main {
@@ -102,13 +120,10 @@ th {
 
     background-color: red;
     color: white;
-
-
 }
 
 .main > #user_records {
   margin: 0 auto;
-
     /* 1em = 1pixel */
 }
 
@@ -122,67 +137,77 @@ th {
     color: white;
     } */
 
-    .boxcontainer {
-       
-      position: relative; 
+  
+.grid-container {
+        display: grid;
+        height: 400px;
+        align-content: center;
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+        background-color: rgba(246, 252, 252, 0.863);
+        padding: 10px;
+        color: white;
+        font-size: 25px;
+        margin: 0px 50px 0px 50px;
+        
+      }
+      
+.grid-container > div {
+    background-color: rgb(186, 186, 186);
+    text-align: center;
+    padding: 60px 0;
+    font-size: 30px;
+      }
 
-    }
-    .boxcontainer > div {
-        width: 100px;
-        height: 100px;
-        position: absolute;
+  
+.twitter {
+    background-color: rgb(189, 189, 189);
+    margin: 10px 20px 10px 20px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px ;
+
     
+        }
 
-    }
+.twitter p {
+/* text-align: left; */
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    display: inline;
+    float: left;
+        
+}
 
-    .box1 {
+.menu2 {
+            
+        }
 
-     background-color: blue !important;  
-     left: 10px;
-     top: 10px;
-     /* z-index: -1; */
-     transform: rotate(10deg);
-    
-    }
+.menu2 > li {
+    list-style-type: none;
+    display: inline-block; 
+    margin-right: 0;
+    font-family: "Audiowide", sans-serif;
+    border : 1px solid yellow;
+    padding: 10px;
+}
 
-    .box2 {
+.menu2 > li:hover {
+    color:rgb(143, 38, 38);
+    background-color: aliceblue;
+}
 
-    background-color: yellow !important;   
-    left: 20px;
-    top: 20px;
-    /* z-index: -2; */
-    transform: rotate(20deg);
-    
-       }
 
-    .box3 {
-
-    background-color: green !important;  
-    left: 30px; 
-    top: 30px; 
-    /* z-index: -3; */
-    transform: rotate(30deg);
-       }
-
-    .box4 {
-
-    background-color: red!important; 
-    left: 40px;  
-    top: 40px; 
-    /* z-index: -4; */
-    transform: rotate(40deg);
-       }
 
 .footer {
-background-color: green;
-padding: 1em;
+background-color: rgba(0, 140, 255, 0.872);
+padding: 3em;
 width: 100%;
 color: white;
 position: fixed;
 bottom: 0;
 text-align: center;
-
-
 }
 
 
