@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(122, 122, 122);
+    color: whitesmoke;
+}
+
+.container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 5px;
+
+}
+
+/* range is between 300px and 800px */
+@media only screen and (max-width: 400px) {
+
+    .box {
+        background-color: blue;
+    }
+
+}  
+
+
+    
+
+
+.box {
+
+    background-color: chartreuse;
+    color: black;
+    font-size: 20pt;
+}

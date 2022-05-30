@@ -1,0 +1,108 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: red;
+    padding: 3px;
+    color: aliceblue;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(17, 14, 219);
+    padding: 3px;
+    color: aliceblue;
+}
+
+nav > ul {
+    list-style-type: none; 
+    text-align: center; 
+}
+
+nav > ul > li {
+    display: inline;
+    
+
+    font-size: 20pt;
+    /* margin-right: 1em; */
+  
+   
+}
+
+aside {
+    background-color: bisque;
+    padding: 3px;
+    width: 24%;
+    float: left;
+  }
+
+  aside > ul {
+    list-style-type: none;
+  }
+
+
+aside > ul > li {
+    font-size: 18pt;  
+}
+
+main {
+    background-color: brown;
+    width: 74%;
+    float: right;
+    margin: 3px;
+    padding: 5px;
+
+}
+
+footer {
+    background-color: grey;
+    clear: both;
+    padding: 3px;
+    color: white;
+    text-align: center;
+
+}
+
+article{
+    /* height: 40px; */
+    background-color: yellow;
+    color: black;
+  
+
+}
+
+article > p {
+   column-count: 3;
+
+
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:10px;
+
+
+}
+
+.box {
+
+    background: url(download.png);
+    background-size: cover;
+    height: 300px;
+    color: black;
+    animation: slidein 4s;
+}
+
+
+@keyframes slidein {
+    from {
+      transform: translateX(0%);
+    }
+  
+    to {
+      transform: translateX(100%);
+    }
+    
