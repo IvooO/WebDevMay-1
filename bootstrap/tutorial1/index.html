@@ -5,36 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+
+<style>
+  body {
+    background-color: lightblue;
+  }
+  
+  @media screen and (min-width: 600px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: lavender;
+    }
+  }
+  
+  @media screen and (min-width: 1000px) {
+    body {
+      background-color: black;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    body {
+      background-color: white;
+    }
+  }
+  
+  </style>
+
+
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Blogger</a>
+          <a class="navbar-brand" href="#">Instagram</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Search</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Like</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Blogposts
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Blogpost 1</a></li>
-                  <li><a class="dropdown-item" href="#">Blogpost 2</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Blogpost 3</a></li>
-                  <li><a class="dropdown-item" href="#">Blogpost 4</a></li>
-                </ul>
-              </li>
+             
               <li class="nav-item">
-                <a class="nav-link disabled">Blog</a>
+                <a class="nav-link disabled">Location</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -47,74 +71,131 @@
 
       <div class="container">
           <div class="row">
-              <div class="col-md-8">
 
-                    <h1>Blog Posts</h1>
-                    <div class="row posts row-cols-md-2">
+            <div class="col-md-1">
+              <h1></h1>
+
+              <ul class="list-group">
+                <br>
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-blockquote-left" viewBox="0 0 16 16">
+                  <path d="M2.5 3a.5.5 0 0 0 0 1h11a.5.5 0 0 0 0-1h-11zm5 3a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6zm0 3a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6zm-5 3a.5.5 0 0 0 0 1h11a.5.5 0 0 0 0-1h-11zm.79-5.373c.112-.078.26-.17.444-.275L3.524 6c-.122.074-.272.17-.452.287-.18.117-.35.26-.51.428a2.425 2.425 0 0 0-.398.562c-.11.207-.164.438-.164.692 0 .36.072.65.217.873.144.219.385.328.72.328.215 0 .383-.07.504-.211a.697.697 0 0 0 .188-.463c0-.23-.07-.404-.211-.521-.137-.121-.326-.182-.568-.182h-.282c.024-.203.065-.37.123-.498a1.38 1.38 0 0 1 .252-.37 1.94 1.94 0 0 1 .346-.298zm2.167 0c.113-.078.262-.17.445-.275L5.692 6c-.122.074-.272.17-.452.287-.18.117-.35.26-.51.428a2.425 2.425 0 0 0-.398.562c-.11.207-.164.438-.164.692 0 .36.072.65.217.873.144.219.385.328.72.328.215 0 .383-.07.504-.211a.697.697 0 0 0 .188-.463c0-.23-.07-.404-.211-.521-.137-.121-.326-.182-.568-.182h-.282a1.75 1.75 0 0 1 .118-.492c.058-.13.144-.254.257-.375a1.94 1.94 0 0 1 .346-.3z"/>
+                </svg>
+                <br>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                  <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                  <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+                </svg>
+
+                <br>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-bookmark-star-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.178.178 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.178.178 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.178.178 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.178.178 0 0 1-.134-.098L8.16 4.1z"/>
+                </svg>
+
+                <br>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                  <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+                  <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+                </svg>
+            
+                
+                </ul>
+
+
+          </div>      
+        
+              <div class="col-md-7">
+
+                    <h1>New posts</h1>
+                    <div class="row posts row-cols-md-1" style="margin: 0,5cm;">
                        
-                        <div class="col">
+                        <div class="col" style="margin-bottom: 1cm;">
                             <div class="card">
-                                <img class="card-img-top" src="https://picsum.photos/id/1/367/267" alt="Card image cap">
+                                <img class="card-img-top" src="https://images.unsplash.com/photo-1644096922601-80aa39eff1d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Card image cap">
                                 <div class="card-body">
-                                    <h4 class="card-title">Blogpost 1 </h4>
+                                    <h4 class="card-title">Insta 1 </h4>
                                     <p class="card-text">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col">
+                        <div class="col" style="margin-bottom: 1cm;">
                             <div class="card">
-                                <img class="card-img-top" src="https://picsum.photos/id/1/367/267" alt="Card image cap">
+                                <img class="card-img-top" src="https://images.unsplash.com/photo-1606042099654-09425a6d33be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Card image cap">
                                 <div class="card-body">
-                                    <h4 class="card-title">Blogpost 2 </h4>
+                                    <h4 class="card-title">Insta 2 </h4>
                                     <p class="card-text">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col">
+                       
+
+                        <div class="col" style="margin-bottom: 1cm;">
                             <div class="card">
-                                <img class="card-img-top" src="https://picsum.photos/id/1/367/267" alt="Card image cap">
+                                <img class="card-img-top" src="https://images.unsplash.com/photo-1510194942548-07563b14fcd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Card image cap">
                                 <div class="card-body">
-                                    <h4 class="card-title">Blogpost 3 </h4>
+                                    <h4 class="card-title">Insta 3 </h4>
                                     <p class="card-text">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                                 </div>
                             </div>
                         </div>
                         
-                        <div class="col">
+                        <div class="col" style="margin-bottom: 1cm;" >
                             <div class="card">
-                                <img class="card-img-top" src="https://picsum.photos/id/1/367/267" alt="Card image cap">
+                                <img class="card-img-top" src="https://images.unsplash.com/photo-1653372082494-75e2eeb3b044?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80" alt="Card image cap">
                                 <div class="card-body">
-                                    <h4 class="card-title">Blogpost 4 </h4>
+                                    <h4 class="card-title">Insta 4 </h4>
                                     <p class="card-text">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                                 </div>
                             </div>
                         </div>
+
+                        <nav aria-label="Page navigation example" style = "position:relative; right:210px;">
+                          <ul class="pagination justify-content-end">
+                            <li class="page-item disabled">
+                              <a class="page-link">Previous</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                              <a class="page-link" href="#">Next</a>
+                            </li>
+                          </ul>
+                        </nav>
+
                     </div>
                 </div>
 
-                        <div class="col-md-4">
-                            <h1>Menu</h1>
+                        <div class="col-md-3">
+                            <h1>Groups</h1>
 
                             <ul class="list-group">
-                                <li class="list-group-item active">Blog post 1</li>
-                                <li class="list-group-item">Blog post 2</li>
-                                <li class="list-group-item">Blog post 3</li>
-                                <li class="list-group-item">Blog post 4</li>
+                                <li class="list-group-item active">Group 1</li>
+                                <li class="list-group-item">Group 2</li>
+                                <li class="list-group-item">Group 3</li>
+                                <li class="list-group-item">Group 4</li>
                               </ul>
 
                         </div>      
+                      
+
                  </div>
             </div>
 
 
-            
-
       <div class="footer bg-light text-dark p-5 text-center">
-        <p>copyright 2022 &copy; Blogger</p>
+        <p>copyright 2022 &copy; Instagram</p>
 
       </div>
+
+    
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
