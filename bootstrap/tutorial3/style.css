@@ -1,0 +1,44 @@
+
+.accordion-btn-focus-border{
+
+color: black
+}
+
+
+.carousel-item > img {
+
+    height: 500px;
+    object-fit: cover;
+    object-position: center; 
+
+
+}
+
+/* Object-position : https://developer.mozilla.org/en-US/docs/Web/CSS/object-position */
+
+
+
+.modal-content-intec {
+    
+    background-image: url(https://i.picsum.photos/id/1002/4312/2868.jpg?hmac=5LlLE-NY9oMnmIQp7ms6IfdvSUQOzP_O3DPMWmyNxwo)  ;
+    background-size: cover;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.intec-footer {
+
+    background-color: transparent !important;
+}
+
+
+.bi-bootstrap {
+
+font-size: 50px;
+
+
+}
