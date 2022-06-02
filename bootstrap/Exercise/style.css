@@ -1,0 +1,30 @@
+.bi-bootstrap {
+
+    color:white;
+}  
+
+.carousel-item > img {
+
+    height: 400px;
+    object-fit: cover;
+    object-position: center; 
+
+
+}
+
+
+.bg-secondary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(11, 95, 185, 0.813) !important;
+}
+
+svg {
+    color: rgba(11, 95, 185, 0.813) !important;
+
+}
+
+.accordion-item #headingOne {
+    
+    background-color: black !important;
+   
+}
