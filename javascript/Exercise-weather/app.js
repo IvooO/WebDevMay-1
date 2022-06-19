@@ -1,5 +1,7 @@
 function sweaterOrnot() {
 
+ 
+ 
   let temp = document.getElementById("temp").value;
   let greeting
   if (temp <= 0) {
@@ -9,9 +11,14 @@ function sweaterOrnot() {
   } else {
     greeting = "No need to wear a sweater";
   }
-  document.getElementById("result").innerHTML = greeting;
 
+  document.getElementById("result").innerHTML = greeting;
+ 
 }
+
+
+
+
 
 
 

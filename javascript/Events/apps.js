@@ -7,16 +7,16 @@ function ClickHandler(event) {
     console.log("Clicked the button", number)
 }
 
-function InputHandler(event){
-    console.log('hello',inputValue.value)
-}
+// function InputHandler(event){
+//     console.log('hello',inputValue.value)
+// }
 
-inputValue.addEventListener("change",InputHandler)
+// inputValue.addEventListener("change",InputHandler)
 
-const RegisterBtn = document.getElementById("register")
-// addEventListener
-function RegisterClickHandler(event){
-    console.log("register button clicked",inputValue.value)
-}
-RegisterBtn.addEventListener("click", RegisterClickHandler)
+// const RegisterBtn = document.getElementById("register")
+// // addEventListener
+// function RegisterClickHandler(event){
+//     console.log("register button clicked",inputValue.value)
+// }
+// RegisterBtn.addEventListener("click", RegisterClickHandler)
 
